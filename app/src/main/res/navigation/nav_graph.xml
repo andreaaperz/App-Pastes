@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/item0">
+
+    <fragment
+        android:id="@+id/item0"
+        android:label="@string/menu_paste_casa"
+        android:name="com.example.appfinalexamen.PasteCasa"
+        tools:layout="@layout/fragment_paste_casa" />
+    <fragment
+        android:id="@+id/item1"
+        android:label="@string/menu_integrantes"
+        android:name="com.example.appfinalexamen.Integrantes"
+        tools:layout="@layout/fragment_integrantes" />
+    <fragment
+        android:id="@+id/item2"
+        android:label="@string/menu_lista_pedidos"
+        android:name="com.example.appfinalexamen.ListaPedidos"
+        tools:layout="@layout/fragment_lista_pedidos" />
+</navigation>

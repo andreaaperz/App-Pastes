@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">appFinalExamen</string>
+    <string name="pastes_yose">PASTES YOSE</string>
+    <string name="pastesyose_com">pastesyose.com</string>
+    <string name="menu_paste_casa">Paste Casa</string>
+    <string name="menu_integrantes">Integrantes </string>
+    <string name="menu_lista_pedidos">Lista Pedidos</string>
+    <string name="title_activity_actividy_index">MainActivity</string>
+    <string name="title_activity_bottom_navigation">MainActivity</string>
+    <string name="title_activity_bottom_nav">MainActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
