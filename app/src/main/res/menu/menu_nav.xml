@@ -15,4 +15,10 @@
         android:title="@string/menu_lista_pedidos"
         android:icon="@drawable/invoice"/>
 
+    <item
+        android:id="@+id/item3"
+        android:title="Cerrar Sesión"
+        android:icon="@drawable/ic_baseline_close_24"/>
+
+
 </menu>

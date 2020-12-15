@@ -8,15 +8,15 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="241dp"
-        android:layout_height="52dp"
+        android:layout_width="200dp"
+        android:layout_height="32dp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/rounded_corner"
         android:text="@string/pastes_yose"
         android:textAlignment="center"
         android:textColor="#6A1B9A"
-        android:textSize="35sp"
+        android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
@@ -37,10 +37,10 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="86dp"
-        android:layout_height="79dp"
+        android:layout_width="56dp"
+        android:layout_height="49dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="76dp"
+        android:layout_marginEnd="100dp"
         android:contentDescription="TODO"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView2"
@@ -49,8 +49,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="86dp"
-        android:layout_height="79dp"
+        android:layout_width="56dp"
+        android:layout_height="49dp"
         android:layout_marginTop="24dp"
         android:contentDescription="TODO"
         app:layout_constraintEnd_toStartOf="@+id/imageView3"
@@ -60,9 +60,9 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="86dp"
-        android:layout_height="79dp"
-        android:layout_marginStart="76dp"
+        android:layout_width="56dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="24dp"
         android:contentDescription="TODO"
         app:layout_constraintStart_toStartOf="parent"
@@ -74,12 +74,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginBottom="91dp"
+        android:layout_marginTop="75dp"
         android:text="Yoseline Pérez Fernández"
         android:textColor="#000000"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="17dp"
         app:layout_constraintStart_toEndOf="@+id/imageView10"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -88,10 +86,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="60dp"
         android:text="Martín Jasso Flores"
         android:textColor="#000000"
-        android:textSize="20dp"
+        android:textSize="17dp"
         app:layout_constraintStart_toEndOf="@+id/imageView7"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -100,10 +98,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="77dp"
+        android:layout_marginTop="85dp"
         android:text="Andrea Pérez Cortés"
         android:textColor="#000000"
-        android:textSize="20dp"
+        android:textSize="17dp"
         app:layout_constraintStart_toEndOf="@+id/imageView8"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -112,10 +110,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="80dp"
         android:text="Fernando Cruz Gálvez"
         android:textColor="#000000"
-        android:textSize="20dp"
+        android:textSize="17dp"
         app:layout_constraintStart_toEndOf="@+id/imageView9"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -123,8 +121,8 @@
         android:id="@+id/imageView7"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
         android:layout_marginBottom="24dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView8"
         app:layout_constraintStart_toStartOf="parent"
@@ -135,7 +133,7 @@
         android:id="@+id/imageView8"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
@@ -145,7 +143,7 @@
         android:id="@+id/imageView9"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="22dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView8"
@@ -155,12 +153,23 @@
         android:id="@+id/imageView10"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="26dp"
-        android:layout_marginBottom="61dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="22dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9"
         app:srcCompat="@drawable/yose" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="233dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="69dp"
+        android:text="Cerrar Sesión"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,7 +20,7 @@
             android:id="@+id/textView"
             android:layout_width="241dp"
             android:layout_height="52dp"
-            android:layout_marginLeft="80dp"
+            android:layout_marginLeft="60dp"
             android:layout_marginTop="20dp"
             android:background="#FFFFFF"
             android:text="@string/pastes_yose"
@@ -32,7 +32,7 @@
             android:id="@+id/imgPreview"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_marginStart="155dp"
+            android:layout_marginStart="135dp"
             android:layout_marginTop="26dp"
             android:layout_marginEnd="156dp"
             app:srcCompat="@android:drawable/ic_menu_camera" />
@@ -93,11 +93,11 @@
             android:id="@+id/btnImage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="140dp"
+            android:layout_marginStart="120dp"
             android:layout_marginTop="24dp"
             android:layout_marginEnd="24dp"
-            android:elevation="20dp"
             android:background="@drawable/layout_bg"
+            android:elevation="20dp"
             android:text="Tomar Foto" />
     </LinearLayout>
 

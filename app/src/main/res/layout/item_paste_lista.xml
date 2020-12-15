@@ -19,19 +19,22 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <TextView
             android:id="@+id/lblTitulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Titulo"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="20dp" />
 
         <TextView
             android:id="@+id/lblSubTitulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Subtitulo"
-            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="16dp" />
     </LinearLayout>
 
 </LinearLayout>

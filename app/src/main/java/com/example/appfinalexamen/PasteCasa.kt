@@ -74,19 +74,19 @@ class PasteCasa : Fragment() {
         listPastesShowcase.add(
                 CarouselItem(
                         imageUrl = "https://cdn.kiwilimon.com/recetaimagen/37185/th5-640x426-46748.jpg",
-                        caption = "Paste tradicional!"
+                        caption = "¡Paste tradicional!"
                 )
         )
         listPastesShowcase.add(
                 CarouselItem(
                         imageUrl = "https://mineroingles.com/wp-content/uploads/2019/09/20190901232940_IMG_3481.jpg",
-                        caption = "Paste de mole poblano"
+                        caption = "Paste de mole verde"
                 )
         )
         listPastesShowcase.add(
                 CarouselItem(
                         imageUrl = "https://ceeccafetales.edu.mx/wp-content/uploads/2020/03/f5de33_ec175605853d4332ba66b3853d5e9e67.jpg",
-                        caption = "Delicioso paste hawaiano"
+                        caption = "Paste hawaiano"
                 )
         )
         return listPastesShowcase
